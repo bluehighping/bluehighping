@@ -1,11 +1,9 @@
 name: Generate Snake
 
 on:
-  # ให้รันอัตโนมัติทุกเที่ยงคืน
   schedule:
     - cron: "0 0 * * *" 
-  
-  # ให้เรากดปุ่มรันเองได้ด้วย (ไม่ต้องรอเที่ยงคืน)
+    
   workflow_dispatch:
 
 jobs:
@@ -16,8 +14,7 @@ jobs:
       
       - uses: Platane/snk@v3
         with:
-          # ⚠️ แก้ชื่อตรงนี้เป็นชื่อ GitHub คุณ !!!
-          github_user_name: YOUR_USERNAME
+          github_user_name: bluehighping
           
           outputs: |
             # สีธีม Galaxy Cyber (ดำ -> ม่วง -> ชมพู -> ฟ้า -> ขาว)
