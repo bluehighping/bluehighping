@@ -1,0 +1,32 @@
+name: Generate Snake
+
+on:
+  # ให้รันอัตโนมัติทุกเที่ยงคืน
+  schedule:
+    - cron: "0 0 * * *" 
+  
+  # ให้เรากดปุ่มรันเองได้ด้วย (ไม่ต้องรอเที่ยงคืน)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: Platane/snk@v3
+        with:
+          # ⚠️ แก้ชื่อตรงนี้เป็นชื่อ GitHub คุณ !!!
+          github_user_name: YOUR_USERNAME
+          
+          outputs: |
+            # สีธีม Galaxy Cyber (ดำ -> ม่วง -> ชมพู -> ฟ้า -> ขาว)
+            dist/github-contribution-grid-snake.svg?palette=#0d1117,#4b0082,#bd00ff,#00f2ff,#ffffff
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
