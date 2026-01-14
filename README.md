@@ -1,4 +1,4 @@
-### Hello World
+## Hello World
 ### Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
@@ -12,13 +12,6 @@
 </div>
 
 ## Contact
-
-<p align="left">
-  <a href="mailto:paradise.paar@gmail.com">
-    <img src="https://img.icons8.com/color/96/gmail-new.png" width="48"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.instagram.com/paradise.paar/">
-    <img src="https://img.icons8.com/color/96/instagram-new.png" width="48"/>
-  </a>
-</p>
+<a href="https://www.instagram.com/paradise.paar/">
+  <img src="https://img.icons8.com/color/96/instagram-new.png" width="48"/>
+</a>
