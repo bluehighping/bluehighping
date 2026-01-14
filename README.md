@@ -10,3 +10,15 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/bluehighping/bluehighping/output/github-contribution-grid-snake.svg" width="100%" />
 </div>
+
+## Contact
+
+<p align="left">
+  <a href="mailto:paradise.paar@gmail.com">
+    <img src="https://img.icons8.com/color/96/gmail-new.png" width="48"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.instagram.com/paradise.paar/">
+    <img src="https://img.icons8.com/color/96/instagram-new.png" width="48"/>
+  </a>
+</p>
